@@ -1,0 +1,181 @@
+.nav {
+  padding: 10px 30px;
+  margin: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-area {
+  display: flex;
+  width: 80px;
+  gap: 10px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.logo-area img {
+  width: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+  box-sizing: border-box;
+}
+
+.logo-area:hover {
+  color: red;
+}
+
+.logo-area:hover img {
+  content: url("https://banner2.cleanpng.com/20190305/qul/kisspng-airbnb-vector-graphics-logo-portable-network-graph-ik-1713903163577.webp");
+}
+
+.logo-text {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-middle-area {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
+}
+
+.nav-right-area {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.world-icon-image {
+  width: 20px;
+}
+
+.world-icon {
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.nav-button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: 1px solid grey;
+  background-color: white;
+  display: flex;
+  cursor: pointer;
+}
+
+.nav-image {
+  width: 20px;
+}
+
+.right-nav-images {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.right-nav-text {
+  padding: 10px 10px;
+  border-radius: 30px;
+  /* display: flex; */
+  cursor: pointer;
+  /* box-shadow: 1px 1px 3px gray; */
+}
+.right-nav-text:hover {
+  padding: 10px 10px;
+  border-radius: 30px;
+  display: flex;
+  cursor: pointer;
+  background-color: #efe4e4fc;
+}
+
+.schedule-area {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  height: 60px;
+  display: flex;
+  border-radius: 30px;
+  border: 1px solid black;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.schedule-input {
+  border-radius: 30px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+}
+
+.schedule-input:hover {
+  background-color: lightgray;
+}
+
+.schedule-sub-title{
+    margin-left: 20px;
+}
+
+.border-left {
+  border-left: 1px solid black;
+  height: 30px;
+}
+
+.schedule-sub-title {
+  color: rgb(159, 156, 156);
+}
+
+.schedule-search-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-image-area {
+  width: 30px;
+}
+
+.search-image {
+  width: 100%;
+  border-radius: 50%;
+  margin: 0px 0px 0px -20px
+}
+
+.container{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 30px 30px;
+}
+
+.card-image-area{
+    display: flex;
+    position: relative;
+}
+
+.card-image{
+    width: 350px;
+}
+
+.house-image{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.love-icon-container{
+    width: 30px;
+    position: absolute;
+    top:10px;
+    right:20px;
+}
+
+
+.love-icon{
+    width: 100%;
+}
